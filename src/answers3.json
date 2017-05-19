@@ -1,0 +1,32 @@
+{
+  "content": "</gap><gap id='7'></gap>Lorem ipsum dolor sit amet, consectetur adipiscing elit . Nulla vel aliquet velit. Aliquam laoreet erat sed magna dictum condimentum. Fusce porta nisl et nisi vulputate, ut sodales sapien vestibulum. Donec dolor arcu, hendrerit in sapien eu, pretium vestibulum urna.</p><p>Pellentesque viverra enim quis congue facilisis. Etiam <gap id='2'></gap> non ligula id lorem tristique mollis sit amet id nisl. Quisque cursus, enim ut eleifend tincidunt, est nisl sodales justo, id tempus risus est ac ligula. Aenean a odio dui.</p><p>ipsum dolor sit amet, consectetur adipiscing <gap id='3'></gap> scelerisque lectus, Lorem ipsum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis atque, corrupti.<gap id='4'></gap> ligula id lorem tristique, consectetur adipisicing elit. Quia explicabo maiores consequatur.</p><p>Liverra enim quis congus<gap id='6'></gap>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia assumenda doloremque laborum tempora!</p>",
+  "answers": [
+    {
+      "id": "2",
+      "type": "select",
+      "answers": ["b1", "b2"],
+      "options": ["a1", "a2", "b1", "b2", "c1", "d1", "e1"]
+    },
+    {
+      "id": "3",
+      "type": "select",
+      "answers": ["c1", "c2"],
+      "options": ["a1", "a2", "b1", "b2", "c1", "c2", "d1", "d2", "e1", "e2"]
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "answers": ["d1", "d2"]
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "answers": ["e1", "e2"]
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "answers": ["x1", "x2"]
+    }
+  ]
+}

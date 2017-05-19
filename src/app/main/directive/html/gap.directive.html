@@ -1,0 +1,10 @@
+<span ng-switch="Model.inputType">
+  <input ng-switch-when="text" type="text" ng-model="Model.inputValue" class="directiveInput">
+  <select ng-switch-when="select" ng-model="Model.inputValue" class="directiveInput">
+    <option ng-repeat="option in Model.options track by $index">{{option}}</option>
+  </select>
+</span>
+<span ng-if="Model.evaluated">
+  <span class="glyphicon glyphicon-ok iconOk" ng-show="Model.isCorrect"></span>
+  <span class="glyphicon glyphicon-remove iconWrong" ng-show="!Model.isCorrect"></span>
+</span>

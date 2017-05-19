@@ -1,0 +1,11 @@
+<div class="content"></div>
+
+<div class="text-center buttons">
+  <button class="buttonStyle" ng-click="checkAnswers()" ng-disabled="checkButtonVisibility">Check</button>
+  <button class="buttonStyle" ng-click="reset()">Reset</button>
+  <button class="buttonStyle" ng-click="getScore()" ng-disabled="getScoreButtonVisibility">Get score: {{showProgress}}</button>
+</div>
+
+<a ui-sref="task({id: 1})"><button class="buttonStyle">View 1</button></a>
+<a ui-sref="task({id: 2})"><button class="buttonStyle">View 2</button></a>
+<a ui-sref="task({id: 3})"><button class="buttonStyle">View 3</button></a>
